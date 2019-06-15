@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-msgLen =  '10000'
+msgLen =  '50'
 
 commandList = []
 commandList.append("bin/x64Linux3gcc5.4.0/release/perftest_cpp03 -sub -bestEffort -numPublishers 1 -noPrintIntervals -sidMultiSubTest 0 -dataLen " + msgLen)
